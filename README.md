@@ -29,7 +29,7 @@ cd api-tests
 npm install cypress --save-dev  
 npm run cy:open  // To open the cypress
 npm run cy:run   // To run the scripts in headless mode - electron browser
-npm run cy:headrun  // To run the scripts headed electron browser
+npm run cy:headrun  // To run the scripts in headed electron browser
 npm run cy:chromerun  //To run the scripts in chrome browser
 
 ```
@@ -53,7 +53,7 @@ cd api-tests
 npm install cypress --save-dev  
 npm run cy:open  // To open the cypress
 npm run cy:run   // To run the scripts in headless mode - electron browser
-npm run cy:headrun  // To run the scripts headed electron browser
+npm run cy:headrun  // To run the scripts in headed electron browser
 npm run cy:chromerun  //To run the scripts in chrome browser
 npm run cy:dashboard // To run the scripts and get the cypress dashboard for test reports
 
