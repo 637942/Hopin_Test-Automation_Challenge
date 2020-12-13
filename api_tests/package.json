@@ -1,0 +1,19 @@
+{
+  "name": "api_tests",
+  "version": "1.0.0",
+  "description": "API Testing For Hopin Assessment Test",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "node_modules\\.bin\\cypress open",
+    "cy:run": "node_modules\\.bin\\cypress run",
+    "cy:headrun": "npm run cy:run -- --headed",
+    "cy:chromerun": "npm run cy:run -- --browser chrome",
+    "cy:dashboard": "npm run cy:run --record --key 945cd8c0-dc33-4c5d-b8e0-ec270509c84b"
+  },
+  "author": "Karpagam",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^6.0.0"
+  }
+}

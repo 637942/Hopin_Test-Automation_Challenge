@@ -1,0 +1,22 @@
+{
+  "name": "ui-tests",
+  "version": "1.0.0",
+  "description": "UI Test for customer App",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "node_modules\\.bin\\cypress open",
+    "cy:run": "node_modules\\.bin\\cypress run",
+    "cy:headrun": "npm run cy:run -- --headed",
+    "cy:chromerun": "npm run cy:run -- --browser chrome",
+    "cy:dashboard": "npm run cy:run -- --record --key 7b7421e6-bad2-4a41-bb5f-eb1e519265ab"
+  },
+  "author": "Karpagam Vellaichamy",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.1.0",
+    "cypress-cucumber-preprocessor": "^4.0.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
