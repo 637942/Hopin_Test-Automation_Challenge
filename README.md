@@ -1,26 +1,60 @@
-# Hopin_Test-Automation_Challenge
+# Hopin_Test-Automation_Challenge #
 
-TASK 1 
+Hopin_Test-Automation_Challenge for Customer APP.
 
+## TASK 1 ##
 
-TASK 2
+Screenshot of the customer list page with username and date after environmental set up has been added into the root.
 
+## TASK 2 ##
 
-TASK 3
+Test Plan with Test steps and results has been manually created and executed the tests and updated the results into it.
 
-TASK 4
+## api-tests (TASK 3) ##
 
-PRE-REQUISITES
-The only pre-requisite to run this app is to have npm and Node.js installed in your machine.
+API Testing for Customer APP - Automation Test scripts has been created using cypress.
 
-To run scripts
-After clonning the repo...
+## PRE-REQUISITES ##
 
-cd ui-tests
-npm install
-npm run cy:open //To open the cypress
-npm run cy:run  //To run in headless mode electron browser
-npm run cy:dashboard //To get the cypress dashboard
-npm run cy:
-The server will be listening on port 3001. If you need to change this, got to /backend/server.js and change the port variable value in the first line.
+The only pre-requisite to run the scripts is to have npm and Node.js installed in your machine. For instructions on how to install, go to https://nodejs.org/en/
 
+## To Run Scripts ##
+
+After clonning the repo.
+
+Open a terminal, go to the root of this repo and
+
+```
+cd api-tests
+npm install cypress --save-dev  
+npm run cy:open  // To open the cypress
+npm run cy:run   // To run the scripts in headless mode - electron browser
+npm run cy:headrun  // To run the scripts headed electron browser
+npm run cy:chromerun  //To run the scripts in chrome browser
+
+```
+
+## ui-tests (TASK 4) ##
+
+UI Testing for Customer APP - Automation Test scripts has been created using cypress with BDD framework and Page Objects
+
+## PRE-REQUISITES ##
+
+The only pre-requisite to run the scripts is to have npm and Node.js installed in your machine. For instructions on how to install, go to https://nodejs.org/en/
+
+## To Run Scripts ##
+
+After clonning the repo.
+
+Open a terminal, go to the root of this repo and
+
+```
+cd api-tests
+npm install cypress --save-dev  
+npm run cy:open  // To open the cypress
+npm run cy:run   // To run the scripts in headless mode - electron browser
+npm run cy:headrun  // To run the scripts headed electron browser
+npm run cy:chromerun  //To run the scripts in chrome browser
+npm run cy:dashboard // To run the scripts and get the cypress dashboard for test reports
+
+```
