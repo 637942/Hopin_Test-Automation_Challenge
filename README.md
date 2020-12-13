@@ -2,11 +2,11 @@
 
 Hopin_Test-Automation_Challenge for Customer APP.
 
-## TASK 1 ##
+## Screenshot_Task1(TASK 1) ##
 
 Screenshot of the customer list page with username and date after environmental set up has been added into the root.
 
-## TASK 2 ##
+## Hopin_Test_Scenarios_Task2(TASK 2) ##
 
 Test Plan with Test steps and results has been manually created and executed the tests and updated the results into it.
 
@@ -14,11 +14,11 @@ Test Plan with Test steps and results has been manually created and executed the
 
 API Testing for Customer APP - Automation Test scripts has been created using cypress.
 
-## PRE-REQUISITES ##
+### PRE-REQUISITES ###
 
 The only pre-requisite to run the scripts is to have npm and Node.js installed in your machine. For instructions on how to install, go to https://nodejs.org/en/
 
-## To Run Scripts ##
+### To Run Scripts ###
 
 After clonning the repo.
 
@@ -38,11 +38,11 @@ npm run cy:chromerun  //To run the scripts in chrome browser
 
 UI Testing for Customer APP - Automation Test scripts has been created using cypress with BDD framework and Page Objects
 
-## PRE-REQUISITES ##
+### PRE-REQUISITES ###
 
 The only pre-requisite to run the scripts is to have npm and Node.js installed in your machine. For instructions on how to install, go to https://nodejs.org/en/
 
-## To Run Scripts ##
+### To Run Scripts ###
 
 After clonning the repo.
 
